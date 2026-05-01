@@ -4,10 +4,10 @@ function App() {
   return (
     <>
       <DisplayLayout>
-        <section className="contact-hero pt-80 px-24 pb-20 relative">
-          <div className="grid grid-cols-2 gap-20 items-end text-white z-10 relative">
+        <section className="contact-hero pt-80 px-5 md:px-24 pb-20 relative">
+          <div className="flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 md:items-end text-white z-10 relative">
             <div>
-              <h1 className="text-4xl font-bold mb-4 text-white">
+              <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
                 Let&apos;s Build Together
               </h1>
               <p className="text-base leading-relaxed">
@@ -17,15 +17,15 @@ function App() {
               </p>
             </div>
             <div>
-              <button className="py-3 px-5 cursor-pointer w-max ml-auto block bg-white text-black text-sm">
+              <button className="py-4 md:py-3 px-7 md:px-5 cursor-pointer w-max md:ml-auto block bg-white text-black text-sm">
                 Start a Project
               </button>
             </div>
           </div>
           <div className="overlay-bg"></div>
         </section>
-        <section className="px-24 pt-24 pb-36 bg-[#0A0A0A]">
-          <div className="grid grid-cols-2 gap-5">
+        <section className="px-5 md:px-24 pt-24 pb-36 bg-[#0A0A0A]">
+          <div className="flex flex-col md:grid grid-cols-2 gap-5">
             <div>
               <h4 className="text-white text-lg mb-1">
                 Wyoming, United States

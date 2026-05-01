@@ -1,8 +1,8 @@
 const Navigation = () => {
   return (
-    <nav className="flex md:grid grid-cols-3 items-center py-6 px-24 fixed top-0 left-0 w-full z-20">
+    <nav className="flex justify-between md:grid grid-cols-3 items-center py-6 px-5 md:px-24 fixed top-0 left-0 w-full z-20">
       <div className="text-2xl font-bold text-white uppercase">Oyin</div>
-      <ul className="flex space-x-12 uppercase text-sm">
+      <ul className="hidden md:flex space-x-12 uppercase text-sm">
         <li>
           <a href="#" className="text-white/60 hover:text-white">
             Home
